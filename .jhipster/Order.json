@@ -1,0 +1,29 @@
+{
+    "name": "Order",
+    "fields": [
+        {
+            "fieldName": "deviliveryStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "productTitle",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200525070729",
+    "entityTableName": "order",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "gateway",
+        "order"
+    ],
+    "microserviceName": "order"
+}
